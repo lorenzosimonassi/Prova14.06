@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prova</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+
+    <h1>Gerador de Senha Aleatória</h1>
+    <h2> Sua senha tem que ter pelo menos 8 caracteres, conter pelo menos uma letra maiúscula, uma letra minúscula e um número</h2>
+
+    <form>
+        <button type="button" onclick="gerarSenha()">Gerar Senha</button>
+    </form>
+
+    <div id="resultado1"></div>
+
+    <h1>Verificador de Senha</h1>
+
+    <form>
+        <label for="password">Copie e cole a senha que foi gerada acima:</label>
+        <input type="password" id="password" required>
+        <button type="button" onclick="verificarSenha()">Verificar</button>
+    </form>
+
+    <div id="resultado2"></div>
+    
+
+
+
+
+
+
+    <script src="index.js"></script>
+</body>
+</html>
